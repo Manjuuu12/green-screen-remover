@@ -4,8 +4,11 @@ The process works by a person in front of bright green backdrops, then isolating
 Our Green Screen Background Remover System removes the green screen from the original image and adds a static image as a background to the uploaded image and video using OpenCV. It allows for exciting and otherwise-impossible scenarios to be produced, expanding the possibilities.
 # STEPS:
 1.First load the image you want to remove the green screen from.
+
 2.Then, it will convert the image to HSV color space. HSV color space is a color space that is better suited for representing colors like green.
+
 3.Next, it will threshold the image to isolate the green background. The threshold values you use will depend on the color of your green screen.
+
 4.Finally, it will replace the green background with a black background.
 
 
